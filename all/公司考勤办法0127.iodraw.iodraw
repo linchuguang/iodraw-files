@@ -185,8 +185,8 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-21" target="hNc-sEyEq_LgSdp81E8I-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="810" y="500" />
-              <mxPoint x="1070" y="500" />
+              <mxPoint x="810" y="490" />
+              <mxPoint x="1070" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -285,9 +285,6 @@
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-57" value="按外勤打卡+提交申请1:1调休" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="580" width="120" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-69" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="796" y="508" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
