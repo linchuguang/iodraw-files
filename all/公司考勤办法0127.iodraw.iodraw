@@ -179,11 +179,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-49" value="远程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-42">
-          <mxGeometry x="-0.0452" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-74" value="远程办公" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-42">
           <mxGeometry x="0.5619" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -199,7 +194,7 @@
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-68" value="周末" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-51">
           <mxGeometry x="0.5185" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-21" value="加班类型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
