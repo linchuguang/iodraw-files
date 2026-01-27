@@ -244,7 +244,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-28" value="钉钉提交申请/补卡" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="690" y="719" width="120" height="40" as="geometry" />
+          <mxGeometry x="710" y="740" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-50" value="提前报备+外勤打卡+补提申请" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="990" y="579" width="120" height="40" as="geometry" />
@@ -335,6 +335,7 @@
             <Array as="points">
               <mxPoint x="1050" y="670" />
               <mxPoint x="740" y="670" />
+              <mxPoint x="741" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
