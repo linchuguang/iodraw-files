@@ -303,6 +303,12 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-81" value="事先报备+备注原因；无合同原因视为异常" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="510" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="630" as="sourcePoint" />
+            <mxPoint x="770" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
