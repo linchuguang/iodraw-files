@@ -80,7 +80,7 @@
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-25" value="漏打卡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-24">
           <mxGeometry x="0.6462" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-107" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="特殊情况" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -144,11 +144,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-21" target="hNc-sEyEq_LgSdp81E8I-34">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="480" />
+              <mxPoint x="670" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-47" value="现场" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-35">
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-47" value="现场加班" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-35">
           <mxGeometry x="-0.048" y="6" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-82" y="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-21" target="hNc-sEyEq_LgSdp81E8I-39">
@@ -217,7 +222,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-34" value="客户单位打卡" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="650" y="580" width="120" height="40" as="geometry" />
+          <mxGeometry x="610" y="580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-39" value="根据情况打卡或&lt;div&gt;次日提交调休申请&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="580" width="120" height="40" as="geometry" />
@@ -280,6 +285,9 @@
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-57" value="按外勤打卡+提交申请1:1调休" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="580" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-69" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="796" y="508" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
