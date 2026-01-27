@@ -172,6 +172,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-49" value="远程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-42">
+          <mxGeometry x="-0.0452" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-21" value="加班类型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="390" width="120" height="40" as="geometry" />
         </mxCell>
@@ -193,7 +198,7 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-30" value="考勤结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="399" y="910" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-34" value="现场加班" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-34" value="客户单位打卡&lt;div&gt;事后提交申请&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-39" value="深夜加班" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
