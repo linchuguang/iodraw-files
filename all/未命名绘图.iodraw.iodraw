@@ -129,6 +129,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-19" target="hNc-sEyEq_LgSdp81E8I-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-19" value="请假" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="390" width="120" height="40" as="geometry" />
         </mxCell>
@@ -137,6 +140,9 @@
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-23" value="事先报备+备注原因；无合同原因视为异常" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="980" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-26" value="请假" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="510" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
