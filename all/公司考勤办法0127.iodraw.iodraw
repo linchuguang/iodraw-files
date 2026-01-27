@@ -236,8 +236,14 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-52" value="节假日" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1220" y="390" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-53" target="hNc-sEyEq_LgSdp81E8I-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-53" value="值班/加班" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1240" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-55" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
