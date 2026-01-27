@@ -247,11 +247,8 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-52" value="节假日值班/加班" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1230" y="190" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1259.9988235294122" y="370.00117647058784" as="sourcePoint" />
-            <mxPoint x="1269.9988235294122" y="580.06" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-53" target="hNc-sEyEq_LgSdp81E8I-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-59" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-56">
           <mxGeometry x="-0.1824" y="-1" relative="1" as="geometry">
@@ -282,7 +279,7 @@
           <mxGeometry x="1200" y="580" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-57" value="按外勤打卡+提交申请1:1调休" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1430" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="585" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
