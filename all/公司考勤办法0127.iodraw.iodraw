@@ -185,7 +185,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-68" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-51">
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-68" value="周末" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-51">
           <mxGeometry x="0.5185" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
