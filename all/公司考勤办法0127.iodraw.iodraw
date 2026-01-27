@@ -239,10 +239,20 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-53" target="hNc-sEyEq_LgSdp81E8I-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-59" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-56">
+          <mxGeometry x="-0.1824" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-53" target="hNc-sEyEq_LgSdp81E8I-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-53" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-60" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-58">
+          <mxGeometry x="-0.024" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-53" value="法定节假日" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1240" y="490" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-55" value="按外勤打卡+提交申请；有事务1:3调休，待命1:1调休" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
