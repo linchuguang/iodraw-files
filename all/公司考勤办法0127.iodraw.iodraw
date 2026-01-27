@@ -39,7 +39,7 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="hNc-sEyEq_LgSdp81E8I-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-13" value="&lt;div&gt;不可返司/返司超30分钟+工作完成+客&lt;/div&gt;&lt;div&gt;户确认&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hNc-sEyEq_LgSdp81E8I-12" vertex="1" connectable="0">
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-13" value="&lt;div&gt;不可返司/返司超30分钟&lt;br&gt;工作完成 客户确认&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hNc-sEyEq_LgSdp81E8I-12" vertex="1" connectable="0">
           <mxGeometry x="-0.275" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
