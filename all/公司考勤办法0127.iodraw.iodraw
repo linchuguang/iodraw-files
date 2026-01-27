@@ -263,14 +263,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-53" target="hNc-sEyEq_LgSdp81E8I-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1180" y="530" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1280" y="930" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-53" value="法定节假日" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1250" y="290" width="80" height="80" as="geometry" />
         </mxCell>
@@ -278,7 +270,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1335" y="710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1335" y="670" />
+              <mxPoint x="1280" y="670" />
               <mxPoint x="830" y="670" />
             </Array>
           </mxGeometry>
