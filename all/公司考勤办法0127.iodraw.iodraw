@@ -28,14 +28,6 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="工作日上班" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="hNc-sEyEq_LgSdp81E8I-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hNc-sEyEq_LgSdp81E8I-10" value="可返司" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hNc-sEyEq_LgSdp81E8I-9" vertex="1" connectable="0">
-          <mxGeometry x="-0.496" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="hNc-sEyEq_LgSdp81E8I-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
