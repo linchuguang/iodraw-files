@@ -185,6 +185,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hNc-sEyEq_LgSdp81E8I-68" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNc-sEyEq_LgSdp81E8I-51">
+          <mxGeometry x="0.5185" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-21" value="加班类型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="390" width="120" height="40" as="geometry" />
         </mxCell>
@@ -272,6 +277,10 @@
         <mxCell id="hNc-sEyEq_LgSdp81E8I-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hNc-sEyEq_LgSdp81E8I-55" target="hNc-sEyEq_LgSdp81E8I-28">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1335" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1335" y="670" />
+              <mxPoint x="830" y="670" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hNc-sEyEq_LgSdp81E8I-55" value="按外勤打卡+提交申请&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;有事务1:3调休，待命1:1调休&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
