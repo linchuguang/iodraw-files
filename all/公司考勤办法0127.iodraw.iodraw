@@ -11,7 +11,7 @@
           <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="公司到岗" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="hNc-sEyEq_LgSdp81E8I-8" edge="1">
-          <mxGeometry x="0.2245" relative="1" as="geometry">
+          <mxGeometry x="-0.725" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="460" y="210" as="targetPoint" />
           </mxGeometry>
