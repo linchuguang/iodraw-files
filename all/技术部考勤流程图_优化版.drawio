@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-02-10T07:43:05.123Z" agent="MiniMax Agent" etag="优化版考勤流程图" version="25.1.0" type="device">
+  <diagram id="流程图_技术部考勤" name="技术部考勤流程图">
+    <mxGraphModel dx="2400" dy="1800" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- 标题 -->
+        <mxCell id="title" value="技术部考勤流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="20" width="600" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 图例说明 -->
+        <mxCell id="legend" value="图例：正常出勤🟢 | 判定节点🔵 | 特殊情况🟠 | 加班规则🟣 | 起止节点🩷 | 申请流程🟡" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="1500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第一部分：开始节点 ==================== -->
+        <mxCell id="start" value="🏢 公司考勤" style="ellipse;html=1;strokeColor=#e83e8c;strokeWidth=3;fillColor=#ffe4ec;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第二部分：工作日上班判定 ==================== -->
+        <mxCell id="decision1" value="📅 工作日上班？" style="rhombus;html=1;strokeColor=#007bff;strokeWidth=3;fillColor=#e7f3ff;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="240" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第三部分：上班路径分支 ==================== -->
+        
+        <!-- 分支1：直赴客户 -->
+        <mxCell id="direct_client" value="🚗 直赴客户" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#28a745;strokeWidth=3;fillColor=#d4edda;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="work_time_clock" value="📍 工作时间内打卡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#28a745;strokeWidth=3;fillColor=#d4edda;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 分支2：到岗晚/距离远 -->
+        <mxCell id="late_arrival" value="⏰ 到岗晚/距离远" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=3;fillColor=#ffe5d0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrive_clock_makeup" value="📱 到岗后打外勤+补卡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=3;fillColor=#ffe5d0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 分支3：公司到岗 -->
+        <mxCell id="company_arrival" value="🏠 公司到岗" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#28a745;strokeWidth=3;fillColor=#d4edda;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 核心打卡节点 - 高亮显示 -->
+        <mxCell id="dingding_clock" value="🔔 钉钉打卡 8:30-17:30" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#28a745;strokeWidth=5;fillColor=#d4edda;fontSize=16;fontStyle=1;strokeDash=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第四部分：外勤处理流程 ==================== -->
+        <mxCell id="field_end" value="🏁 外勤结束" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=3;fillColor=#ffe5d0;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 外勤分支：可返回 -->
+        <mxCell id="can_return" value="↩️ 可返回" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=2;fillColor=#fff3e0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 外勤分支：不可返回 -->
+        <mxCell id="cannot_return" value="🚫 不可返回/超30分钟" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=2;fillColor=#fff3e0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="immediate_field_clock" value="📸 即时外勤打卡(暂行)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#fd7e14;strokeWidth=3;fillColor=#ffe5d0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="560" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第五部分：特殊情况判定 ==================== -->
+        <mxCell id="special_cases" value="⚠️ 特殊情况？" style="rhombus;html=1;strokeColor=#fd7e14;strokeWidth=3;fillColor=#fff3e0;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- 无特殊情况 -->
+        <mxCell id="no_special" value="✅ 无特殊情况" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#28a745;strokeWidth=3;fillColor=#d4edda;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第六部分：请假/病假流程 ==================== -->
+        <mxCell id="leave_request" value="📋 请假/病假" style="swimlane;html=1;strokeColor=#ffc107;strokeWidth;fillColor=#=3fff8e1;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="280" width="240" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leave_apply" value="📝 提前申请" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc107;strokeWidth=2;fillColor=#fffde7;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sick_leave_note" value="🏥 病假后续补病例调整" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc107;strokeWidth=2;fillColor=#fffde7;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第七部分：加班流程（重点模块）==================== -->
+        <mxCell id="overtime_module" value="⏰ 加班类型" style="swimlane;html=1;strokeColor=#6f42c1;strokeWidth=3;fillColor=#f3e5f5;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="460" width="240" height="280" as="geometry" />
+        </mxCell>
+
+        <mxCell id="site_overtime" value="🏢 现场加班：客户单位打卡" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=2;fillColor=#ede7f6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="520" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="late_overtime" value="🌙 深夜加班：打卡或次日调休" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=2;fillColor=#ede7f6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="565" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="remote_overtime" value="🏠 远程办公：无需打卡，告知经理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=2;fillColor=#ede7f6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="610" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="weekend_overtime" value="📅 周末加班：报备+外勤打卡+补提" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=2;fillColor=#ede7f6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="655" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第八部分：漏打卡流程 ==================== -->
+        <mxCell id="miss_clock" value="❌ 漏打卡" style="swimlane;html=1;strokeColor=#ffc107;strokeWidth=3;fillColor=#fff8e1;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="760" width="240" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="miss_clock_note" value="📌 事先报备+备注原因&lt;br&gt;⚠️ 无合理原因视为异常" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc107;strokeWidth=2;fillColor=#fffde7;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="800" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第九部分：节假日值班流程 ==================== -->
+        <mxCell id="holiday_work" value="🎄 节假日值班/加班" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=3;fillColor=#f3e5f5;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legal_holiday" value="📅 法定节假日？" style="rhombus;html=1;strokeColor=#6f42c1;strokeWidth=3;fillColor=#f3e5f5;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- 法定节假日分支 -->
+        <mxCell id="legal_yes" value="🟣 是&lt;br&gt;外勤打卡+提交申请&lt;br&gt;📊 有事务1:3调休&lt;br&gt;📊 待命1:1调休" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6f42c1;strokeWidth=3;fillColor=#ede7f6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="750" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 非法定节假日分支 -->
+        <mxCell id="legal_no" value="🟡 否&lt;br&gt;外勤打卡+提交申请&lt;br&gt;📊 1:1调休" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ffc107;strokeWidth=3;fillColor=#fff8e1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="750" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 第十部分：汇合节点 ==================== -->
+        <mxCell id="normal_end" value="✅ 考勤正常" style="ellipse;html=1;strokeColor=#28a745;strokeWidth=4;fillColor=#d4edda;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="850" width="180" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="apply_submit" value="📤 钉钉提交申请/补卡" style="ellipse;html=1;strokeColor=#ffc107;strokeWidth=4;fillColor=#fff8e1;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="880" width="200" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="final_end" value="🏁 考勤结束" style="ellipse;html=1;strokeColor=#e83e8c;strokeWidth=4;fillColor=#ffe4ec;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="960" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 连接线（带颜色和样式）==================== -->
+        
+        <!-- 开始到判定 -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#e83e8c;strokeWidth=3;" edge="1" parent="1" source="start" target="decision1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 判定到三个分支 -->
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#007bff;strokeWidth=3;" edge="1" parent="1" source="decision1" target="direct_client">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#007bff;strokeWidth=3;" edge="1" parent="1" source="decision1" target="late_arrival">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#007bff;strokeWidth=3;" edge="1" parent="1" source="decision1" target="company_arrival">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 分支到具体操作 -->
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#28a745;strokeWidth=2;" edge="1" parent="1" source="direct_client" target="work_time_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#fd7e14;strokeWidth=2;" edge="1" parent="1" source="late_arrival" target="arrive_clock_makeup">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 外勤分支连接 -->
+        <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#fd7e14;strokeWidth=2;" edge="1" parent="1" source="work_time_clock" target="field_end">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#fd7e14;strokeWidth=2;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="field_end" target="can_return">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#fd7e14;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="field_end" target="cannot_return">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#fd7e14;strokeWidth=2;" edge="1" parent="1" source="cannot_return" target="immediate_field_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 可返回分支回到打卡 -->
+        <mxCell id="edge11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="can_return" target="dingding_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 即时打卡直接到考勤正常 -->
+        <mxCell id="edge12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="immediate_field_clock" target="normal_end">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 公司到岗直接到打卡 -->
+        <mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="company_arrival" target="dingding_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 到岗晚分支到打卡 -->
+        <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="arrive_clock_makeup" target="dingding_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 打卡到特殊情况判定 -->
+        <mxCell id="edge15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#fd7e14;strokeWidth=3;" edge="1" parent="1" source="dingding_clock" target="special_cases">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 特殊情况判定分支 -->
+        <mxCell id="edge16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="special_cases" target="no_special">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.2;strokeColor=#fd7e14;strokeWidth=3;" edge="1" parent="1" source="special_cases" target="leave_request">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="special_cases" target="overtime_module">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="special_cases" target="miss_clock">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 无特殊情况到考勤正常 -->
+        <mxCell id="edge20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#28a745;strokeWidth=3;" edge="1" parent="1" source="no_special" target="normal_end">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 请假/加班/漏打卡到提交申请 -->
+        <mxCell id="edge21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="leave_apply" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="sick_leave_note" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="site_overtime" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="late_overtime" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="remote_overtime" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="weekend_overtime" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="miss_clock_note" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 节假日流程连接 -->
+        <mxCell id="edge28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6f42c1;strokeWidth=2;" edge="1" parent="1" source="holiday_work" target="legal_holiday">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#6f42c1;strokeWidth=3;" edge="1" parent="1" source="legal_holiday" target="legal_yes">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="legal_holiday" target="legal_no">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 节假日到提交申请 -->
+        <mxCell id="edge31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="legal_yes" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;strokeColor=#ffc107;strokeWidth=3;" edge="1" parent="1" source="legal_no" target="apply_submit">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 提交申请到考勤结束 -->
+        <mxCell id="edge33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeColor=#ffc107;strokeWidth=4;" edge="1" parent="1" source="apply_submit" target="final_end">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- 考勤正常到考勤结束 -->
+        <mxCell id="edge34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#28a745;strokeWidth=4;" edge="1" parent="1" source="normal_end" target="final_end">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+
+        <!-- ==================== 辅助说明框 ==================== -->
+        <mxCell id="note1" value="💡 调休说明：&lt;br&gt;• 1:3调休 = 工作1小时换3小时调休&lt;br&gt;• 1:1调休 = 工作1小时换1小时调休" style="text;html=1;strokeColor=#6f42c1;fillColor=#f3e5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="850" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note2" value="⚠️ 注意事项：&lt;br&gt;• 远程办公无需打卡&lt;br&gt;• 需提前告知经理&lt;br&gt• 提交申请时附上凭据" style="text;html=1;strokeColor=#fd7e14;fillColor=#fff3e0;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="240" height="80" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
